@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>My Portfolio</title>
     <!--Stylesheets-->
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="index.css">
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
@@ -32,8 +31,8 @@
                 <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda dolores ea et eveniet neque nostrum odio, odit quia sunt. Beatae deleniti dicta dolore eum facilis hic impedit quae saepe. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium assumenda dolores ea et eveniet neque nostrum odio, odit quia sunt. Beatae deleniti dicta dolore eum facilis hic impedit quae saepe.
                 <br/>
                 <br/>
-                <a id="newElement">
-                   this is going to be modified
+                <a id="newElement" style="color: blue;font-weight: bolder;">
+                   Double Click me to change text css
                </a>
                 <br>
                 <br> Lorem ipsum dolor sit amet
@@ -45,12 +44,19 @@
                 </div>
             </div>
             <div class="image">
-                <img id="something" src="image.jpg" class="my-image">
+                <img id="some-image" src="image.jpg" class="my-image">
             </div>
         </div>
+
+      <!--   new button -->
+        <div class="row">
+            <button id="performSomeAction">Click me</button>
+        </div>
+
+
     </div>
     <script src="jquery-3.4.1.min.js"></script>
-<script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
